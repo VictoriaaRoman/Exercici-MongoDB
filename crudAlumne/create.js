@@ -7,21 +7,21 @@ const someFunction = async () => {
     const juan = new Alumne({
         name: 'Juan',
         year: 2001,
-        curse: '3B'
+        curs: '3B'
     });
     await juan.save();
 
     const pepe = new Alumne({
         name: 'Pepe',
         year: 1999,
-        curse: '3A'
+        curs: '3A'
     });
     await pepe.save();
 
-    const laura = new Product({
+    const laura = new Alumne({
         name: 'Laura',
         year: 2002,
-        curse: '2A'
+        curs: '2A'
     })
     await laura.save();
 
